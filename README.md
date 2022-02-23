@@ -1,11 +1,15 @@
+API DE GESTION DE BOOKMARK ---
+
 Voici les étapes pour essayer le projet :
 
 1 - Installation de la Base de données PostgreSQL :
+
     - Créer une BDD nommée 'bookmark' ainsi qu'un schéma nommé 'public' ('public' est le schéma par défaut dans pgAdmin) (voir PJ du mail si nécessaire)
     - Ouvrir le fichier BDD.sql fourni
     - Copier coller tout le script SQL dans pg admin par exemple
     
-    La BDD doit avoir ces données :
+La BDD doit avoir ces données :
+
     - database: 'bookmark'
     - user: 'postgres'
     - password: 'root'
@@ -13,7 +17,9 @@ Voici les étapes pour essayer le projet :
 
 2 - npm install nécessaire pour installer les dépendances
 
-3 - Démarrage du programme : npm run dev
+3 - Démarrage du programme : 
+
+    - npm run dev
 
 4 - Utilisation de postman (ou équivalent) pour essayer les requêtes suivantes (jeux d'essai): 
 
