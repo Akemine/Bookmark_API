@@ -4,7 +4,8 @@ Voici les étapes pour essayer le projet :
 
 1 - Installation de la Base de données PostgreSQL :
 
-    - Créer une BDD nommée 'bookmark' ainsi qu'un schéma nommé 'public' ('public' est le schéma par défaut dans pgAdmin)
+    - Créer une BDD nommée 'bookmark' ainsi qu'un schéma nommé 'public' 
+    ('public' est le schéma par défaut dans pgAdmin)
     - Ouvrir le fichier BDD.sql fourni
     - Copier coller tout le script SQL dans pg admin par exemple
     
@@ -17,11 +18,13 @@ La BDD doit avoir ces données :
 
 2 - Executer npm install nécessaire pour installer les dépendances
 
-    -npm install
+    - npm install
 
 3 - Démarrage du programme : 
 
     - npm run dev
+
+Des erreurs vont persistées au démarrage en disant que certaines propriétés n'existent pas dans 'OembedData'. Toutefois, cela n'impact en rien le projet et sont rajoutables à la main dans la fonction "extract" si souhaité.
 
 4 - Utilisation de postman (ou équivalent) pour essayer les requêtes suivantes (jeux d'essai): 
 
