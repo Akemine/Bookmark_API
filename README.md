@@ -10,7 +10,7 @@ Voici les étapes pour essayer le projet :
     - Copier coller tout le script SQL dans pg admin par exemple
     
 La BDD doit avoir ces données :
-Pour des raisons évidente, l'accès à la base n'est pas caché et l'utilsation de 'dotenv' n'a pas été utilisé pour simplifier le test'
+Pour des raisons évidente, l'accès à la base n'est pas caché et l'utilisation de 'dotenv' n'a pas été utilisé pour simplifier le test
 
     - database: 'bookmark'
     - user: 'postgres'
