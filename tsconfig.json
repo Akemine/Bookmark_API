@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES6",
+    "module": "commonjs",
+    "esModuleInterop": true, // permet la syntaxe habituelle pour importer express
+    "strict": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "/node_modules"
+    ]
+}
